@@ -20,10 +20,10 @@ public class NumberWizard : MonoBehaviour
      if (Input.GetKeyDown(KeyCode.UpArrow)){
          Debug.Log("Up Arrow key was pressed.");
      }
-     if (Input.GetKeyDown(KeyCode.DownArrow)){
+     else if (Input.GetKeyDown(KeyCode.DownArrow)){
          Debug.Log("Down Arrow key was pressed.");
      }
-     if (Input.GetKeyDown(KeyCode.Return)){
+     else if (Input.GetKeyDown(KeyCode.Return)){
          Debug.Log("Return key was pressed.");
      }
     }
